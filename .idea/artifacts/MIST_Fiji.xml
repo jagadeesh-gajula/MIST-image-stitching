@@ -1,0 +1,35 @@
+<component name="ArtifactManager">
+  <artifact build-on-make="true" name="MIST_Fiji">
+    <output-path>$PROJECT_DIR$/out/artifacts/MIST_Fiji</output-path>
+    <root id="root">
+      <element id="directory" name="plugins">
+        <element id="archive" name="MIST_.jar">
+          <element id="file-copy" path="$PROJECT_DIR$/plugins.config" />
+          <element id="module-output" name="MIST_" />
+        </element>
+      </element>
+      <element id="directory" name="jars">
+        <element id="library" level="project" name="Maven: org.jcuda:jcuda:0.9.0d" />
+        <element id="library" level="project" name="Maven: org.jcuda:jcufft:0.9.0d" />
+        <element id="library" level="project" name="Maven: commons-cli:commons-cli:1.4" />
+      </element>
+      <element id="directory" name="lib">
+        <element id="directory" name="fftw">
+          <element id="file-copy" path="$PROJECT_DIR$/lib/fftw/libfftw3.dll" />
+        </element>
+        <element id="directory" name="jcuda">
+          <element id="file-copy" path="$PROJECT_DIR$/lib/jcuda/stitching-util-cuda-bin.ptx" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib/jcuda/util-cuda-bin.cu" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib/jcuda/JCudaDriver-0.9.0d-windows-x86_64.dll" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib/jcuda/JCudaRuntime-0.9.0d-windows-x86_64.dll" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib/jcuda/JCufft-0.9.0d-windows-x86_64.dll" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib/jcuda/JNvrtc-0.9.0d-windows-x86_64.dll" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib/jcuda/libJCudaDriver-0.9.0d-linux-x86_64.so" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib/jcuda/libJCudaRuntime-0.9.0d-linux-x86_64.so" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib/jcuda/libJCufft-0.9.0d-linux-x86_64.so" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib/jcuda/libJNvrtc-0.9.0d-linux-x86_64.so" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

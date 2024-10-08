@@ -1,2 +1,3 @@
-# MIST-image-stitching
-MIST image stitching algorithm for sitching WSI images (Grid Stitching)
+# MIST-Image-stitching
+
+This contains code for image stitching MIST tool. https://pages.nist.gov/MIST/
